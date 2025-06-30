@@ -1,36 +1,63 @@
-[00:04:18] [Server thread/INFO]: Tlfaz_Man lost connection: Disconnected
-[00:04:18] [Server thread/INFO]: Tlfaz_Man left the game
-[00:04:18] [Server thread/INFO]: [voicechat] Disconnecting client Tlfaz_Man
-[00:04:19] [Server thread/INFO]: Tlfaz_Man[/[0:0:0:0:0:0:0:1%0]:56106] logged in with entity id 7806 at (341.7494380373662, 72.84375, 832.3790807267419)
-[00:04:19] [Server thread/INFO]: Tlfaz_Man joined the game
-[00:04:20] [Server thread/INFO]: [voicechat] Received secret request of Tlfaz_Man (18)
-[00:04:20] [Server thread/INFO]: [voicechat] Sent secret to Tlfaz_Man
-[00:11:33] [Server thread/INFO]: [Not Secure] <Tlfaz_Man> tttttt
-[00:13:53] [Server thread/INFO]: Tlfaz_Man lost connection: Disconnected
-[00:13:53] [Server thread/INFO]: Tlfaz_Man left the game
-[00:13:53] [Server thread/INFO]: [voicechat] Disconnecting client Tlfaz_Man
-[00:14:39] [Server thread/INFO]: Tlfaz_Man[/[0:0:0:0:0:0:0:1%0]:34458] logged in with entity id 12262 at (330.48385811332395, 71.0, 847.9914029770729)
-[00:14:39] [Server thread/INFO]: Tlfaz_Man joined the game
-[00:14:40] [Server thread/INFO]: [voicechat] Received secret request of Tlfaz_Man (18)
-[00:14:40] [Server thread/INFO]: [voicechat] Sent secret to Tlfaz_Man
-[00:21:39] [Server thread/INFO]: Tlfaz_Man has made the advancement [Enchanter]
-[00:34:48] [Server thread/INFO]: Tlfaz_Man has made the advancement [We Need to Go Deeper]
-[00:34:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6468ms or 129 ticks behind
-[00:37:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=60, y=81, z=155} class_2338{x=61, y=81, z=155}
-[00:37:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=60, y=81, z=155} class_2338{x=61, y=81, z=155}
-[00:48:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=53, y=78, z=125} class_2338{x=53, y=77, z=126}
-[00:48:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=53, y=78, z=125} class_2338{x=52, y=78, z=125}
-[02:08:03] [Server thread/INFO]: Tlfaz_Man lost connection: Disconnected
-[02:08:03] [Server thread/INFO]: Tlfaz_Man left the game
-[02:08:03] [Server thread/INFO]: [voicechat] Disconnecting client Tlfaz_Man
-[02:08:18] [Server thread/INFO]: Stopping the server
-[02:08:18] [Server thread/INFO]: Stopping server
-[02:08:18] [Server thread/INFO]: Saving players
-[02:08:18] [Server thread/INFO]: Saving worlds
-[02:08:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[02:08:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[02:08:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[02:08:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02:08:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:08:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:08:18] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:25:47] [Server thread/INFO]: 3mkbody has made the advancement [We Need to Go Deeper]
+[00:26:05] [Server thread/INFO]: [Not Secure] <3mkbody> 58 117
+[00:36:58] [Server thread/INFO]: Tlfaz_Man lost connection: Disconnected
+[00:36:58] [Server thread/INFO]: Tlfaz_Man left the game
+[00:36:58] [Server thread/INFO]: [voicechat] Disconnecting client Tlfaz_Man
+[00:37:54] [Server thread/INFO]: Tlfaz_Man[/[0:0:0:0:0:0:0:1%0]:36954] logged in with entity id 117865 at (329.93496536834033, 79.0, 828.0236110874861)
+[00:37:54] [Server thread/INFO]: Tlfaz_Man joined the game
+[00:37:55] [Server thread/INFO]: [voicechat] Received secret request of Tlfaz_Man (18)
+[00:37:55] [Server thread/INFO]: [voicechat] Sent secret to Tlfaz_Man
+[00:45:40] [Server thread/INFO]: Tlfaz_Man lost connection: Disconnected
+[00:45:40] [Server thread/INFO]: Tlfaz_Man left the game
+[00:45:40] [Server thread/INFO]: [voicechat] Disconnecting client Tlfaz_Man
+[00:45:41] [Server thread/INFO]: Tlfaz_Man[/[0:0:0:0:0:0:0:1%0]:57234] logged in with entity id 119540 at (331.72207239918447, 72.0, 849.3734528066235)
+[00:45:41] [Server thread/INFO]: Tlfaz_Man joined the game
+[00:45:42] [Server thread/INFO]: [voicechat] Received secret request of Tlfaz_Man (18)
+[00:45:42] [Server thread/INFO]: [voicechat] Sent secret to Tlfaz_Man
+[00:50:36] [Server thread/INFO]: [Tlfaz_Man: Set the weather to clear]
+[00:50:50] [Server thread/WARN]: Tlfaz_Man was kicked for floating too long!
+[00:50:50] [Server thread/INFO]: Tlfaz_Man lost connection: Flying is not enabled on this server
+[00:50:50] [Server thread/INFO]: Tlfaz_Man left the game
+[00:50:50] [Server thread/INFO]: [voicechat] Disconnecting client Tlfaz_Man
+[00:51:43] [Server thread/INFO]: Tlfaz_Man[/[0:0:0:0:0:0:0:1%0]:46374] logged in with entity id 121199 at (315.0250806295617, 80.24918707874468, 826.5004575953643)
+[00:51:43] [Server thread/INFO]: Tlfaz_Man joined the game
+[00:51:44] [Server thread/INFO]: [voicechat] Received secret request of Tlfaz_Man (18)
+[00:51:44] [Server thread/INFO]: [voicechat] Sent secret to Tlfaz_Man
+[01:31:10] [Server thread/INFO]: Tlfaz_Man lost connection: Disconnected
+[01:31:10] [Server thread/INFO]: Tlfaz_Man left the game
+[01:31:10] [Server thread/INFO]: [voicechat] Disconnecting client Tlfaz_Man
+[01:33:01] [Server thread/INFO]: 3mkbody lost connection: Disconnected
+[01:33:01] [Server thread/INFO]: 3mkbody left the game
+[01:33:01] [Server thread/INFO]: [voicechat] Disconnecting client 3mkbody
+[01:41:49] [Server thread/INFO]: Tlfaz_Man[/[0:0:0:0:0:0:0:1%0]:51372] logged in with entity id 131290 at (327.83008576948953, 71.0, 843.938188590073)
+[01:41:49] [Server thread/INFO]: Tlfaz_Man joined the game
+[01:41:50] [Server thread/INFO]: [voicechat] Received secret request of Tlfaz_Man (18)
+[01:41:50] [Server thread/INFO]: [voicechat] Sent secret to Tlfaz_Man
+[01:56:59] [Server thread/INFO]: Tlfaz_Man lost connection: Disconnected
+[01:56:59] [Server thread/INFO]: Tlfaz_Man left the game
+[01:56:59] [Server thread/INFO]: [voicechat] Disconnecting client Tlfaz_Man
+[02:00:08] [Server thread/INFO]: Tlfaz_Man[/[0:0:0:0:0:0:0:1%0]:42232] logged in with entity id 134371 at (338.60839415751946, 71.0, 827.0639102578604)
+[02:00:08] [Server thread/INFO]: Tlfaz_Man joined the game
+[02:00:10] [Server thread/INFO]: [voicechat] Received secret request of Tlfaz_Man (18)
+[02:00:10] [Server thread/INFO]: [voicechat] Sent secret to Tlfaz_Man
+[02:04:55] [Server thread/INFO]: 3mkbody[/[0:0:0:0:0:0:0:1%0]:49056] logged in with entity id 135453 at (314.6409839026262, 72.0, 748.3060528388144)
+[02:04:55] [Server thread/INFO]: 3mkbody joined the game
+[02:14:05] [Server thread/INFO]: 3mkbody lost connection: Disconnected
+[02:14:05] [Server thread/INFO]: 3mkbody left the game
+[02:14:05] [Server thread/INFO]: [voicechat] Disconnecting client 3mkbody
+[02:32:10] [Server thread/INFO]: Tlfaz_Man lost connection: Timed out
+[02:32:10] [Server thread/INFO]: Tlfaz_Man left the game
+[02:32:10] [Server thread/INFO]: [voicechat] Disconnecting client Tlfaz_Man
+[02:32:10] [Server thread/WARN]: handleDisconnection() called twice
+[02:32:34] [Server thread/INFO]: Tlfaz_Man[/[0:0:0:0:0:0:0:1%0]:42240] logged in with entity id 141114 at (323.37791869413064, 86.0, 823.8909990745907)
+[02:32:34] [Server thread/INFO]: Tlfaz_Man joined the game
+[02:32:35] [Server thread/INFO]: [voicechat] Received secret request of Tlfaz_Man (18)
+[02:32:35] [Server thread/INFO]: [voicechat] Sent secret to Tlfaz_Man
+[02:50:11] [Server thread/INFO]: [Tlfaz_Man: Set the weather to clear]
+[02:53:41] [Server thread/INFO]: Tlfaz_Man lost connection: Disconnected
+[02:53:41] [Server thread/INFO]: Tlfaz_Man left the game
+[02:53:41] [Server thread/INFO]: [voicechat] Disconnecting client Tlfaz_Man
+[02:54:46] [Server thread/INFO]: Tlfaz_Man[/[0:0:0:0:0:0:0:1%0]:58430] logged in with entity id 144912 at (297.8179975521811, 71.0, 796.5182984425082)
+[02:54:46] [Server thread/INFO]: Tlfaz_Man joined the game
+[02:54:46] [Server thread/INFO]: [voicechat] Received secret request of Tlfaz_Man (18)
+[02:54:46] [Server thread/INFO]: [voicechat] Sent secret to Tlfaz_Man
