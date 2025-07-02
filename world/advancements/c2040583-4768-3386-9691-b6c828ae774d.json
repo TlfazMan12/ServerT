@@ -315,7 +315,8 @@
       "bread": "2025-06-30 21:04:29 +0000",
       "cooked_chicken": "2025-07-01 14:53:05 +0000",
       "cooked_mutton": "2025-06-26 17:48:21 +0000",
-      "cooked_beef": "2025-06-30 20:33:08 +0000"
+      "cooked_beef": "2025-06-30 20:33:08 +0000",
+      "golden_carrot": "2025-07-02 14:02:36 +0000"
     },
     "done": false
   },
@@ -555,7 +556,8 @@
       "minecraft:piglin": "2025-07-01 18:28:32 +0000",
       "minecraft:spider": "2025-06-30 19:05:46 +0000",
       "minecraft:zombie": "2025-06-30 20:23:11 +0000",
-      "minecraft:creeper": "2025-06-30 19:10:17 +0000"
+      "minecraft:creeper": "2025-06-30 19:10:17 +0000",
+      "minecraft:drowned": "2025-07-02 14:59:04 +0000"
     },
     "done": false
   },
@@ -7153,18 +7155,41 @@
     },
     "done": true
   },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-07-01 17:38:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/lava_bucket": {
     "criteria": {
       "lava_bucket": "2025-07-01 17:38:52 +0000"
     },
     "done": true
   },
-  "minecraft:nether/explore_nether": {
+  "minecraft:adventure/voluntary_exile": {
     "criteria": {
-      "minecraft:nether_wastes": "2025-07-01 18:07:01 +0000",
-      "minecraft:soul_sand_valley": "2025-07-01 18:00:17 +0000"
+      "voluntary_exile": "2025-07-01 17:47:25 +0000"
     },
-    "done": false
+    "done": true
+  },
+  "minecraft:adventure/whos_the_pillager_now": {
+    "criteria": {
+      "kill_pillager": "2025-07-01 17:47:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-07-01 17:47:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2025-07-01 17:47:52 +0000"
+    },
+    "done": true
   },
   "minecraft:nether/root": {
     "criteria": {
@@ -7178,23 +7203,12 @@
     },
     "done": true
   },
-  "minecraft:adventure/whos_the_pillager_now": {
+  "minecraft:nether/explore_nether": {
     "criteria": {
-      "kill_pillager": "2025-07-01 17:47:52 +0000"
+      "minecraft:nether_wastes": "2025-07-01 18:07:01 +0000",
+      "minecraft:soul_sand_valley": "2025-07-01 18:00:17 +0000"
     },
-    "done": true
-  },
-  "minecraft:story/form_obsidian": {
-    "criteria": {
-      "obsidian": "2025-07-01 17:38:48 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/shoot_arrow": {
-    "criteria": {
-      "shot_arrow": "2025-07-01 17:47:52 +0000"
-    },
-    "done": true
+    "done": false
   },
   "minecraft:story/shiny_gear": {
     "criteria": {
@@ -7202,15 +7216,15 @@
     },
     "done": true
   },
-  "minecraft:adventure/voluntary_exile": {
+  "minecraft:nether/obtain_blaze_rod": {
     "criteria": {
-      "voluntary_exile": "2025-07-01 17:47:25 +0000"
+      "blaze_rod": "2025-07-02 12:06:28 +0000"
     },
     "done": true
   },
-  "minecraft:adventure/ol_betsy": {
+  "minecraft:story/enchant_item": {
     "criteria": {
-      "shot_crossbow": "2025-07-01 17:47:52 +0000"
+      "enchanted_item": "2025-07-02 12:53:24 +0000"
     },
     "done": true
   },

@@ -17,10 +17,14 @@
       "minecraft:taiga": "2025-06-27 14:23:41 +0000",
       "minecraft:river": "2025-06-25 22:58:10 +0000",
       "minecraft:stony_shore": "2025-06-26 22:34:05 +0000",
+      "minecraft:snowy_plains": "2025-07-02 11:31:53 +0000",
       "minecraft:lush_caves": "2025-06-27 15:10:41 +0000",
       "minecraft:dripstone_caves": "2025-06-27 14:31:10 +0000",
+      "minecraft:snowy_taiga": "2025-07-02 11:30:06 +0000",
       "minecraft:deep_cold_ocean": "2025-06-29 21:38:33 +0000",
+      "minecraft:ice_spikes": "2025-07-02 11:33:12 +0000",
       "minecraft:old_growth_birch_forest": "2025-06-27 16:26:35 +0000",
+      "minecraft:frozen_river": "2025-07-02 11:33:27 +0000",
       "minecraft:deep_dark": "2025-06-26 22:20:36 +0000",
       "minecraft:sunflower_plains": "2025-06-27 23:35:32 +0000",
       "minecraft:meadow": "2025-06-27 23:57:58 +0000",
@@ -525,8 +529,11 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "bread": "2025-06-25 23:05:19 +0000",
+      "rotten_flesh": "2025-07-02 12:41:53 +0000",
       "glow_berries": "2025-06-27 16:16:44 +0000",
+      "sweet_berries": "2025-07-02 12:42:43 +0000",
       "cooked_beef": "2025-06-26 23:57:06 +0000",
+      "beef": "2025-07-02 22:52:46 +0000",
       "beetroot": "2025-06-25 23:15:33 +0000"
     },
     "done": false
@@ -822,12 +829,17 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2025-06-29 21:42:07 +0000",
-      "minecraft:cave_spider": "2025-06-27 16:12:31 +0000",
+      "minecraft:blaze": "2025-07-02 11:12:25 +0000",
       "minecraft:skeleton": "2025-06-26 00:30:56 +0000",
-      "minecraft:piglin": "2025-06-30 06:28:30 +0000",
       "minecraft:phantom": "2025-06-30 00:52:48 +0000",
       "minecraft:zombified_piglin": "2025-07-01 18:32:27 +0000",
+      "minecraft:witch": "2025-07-02 10:11:24 +0000",
+      "minecraft:wither_skeleton": "2025-07-02 11:13:10 +0000",
+      "minecraft:ghast": "2025-07-02 11:07:57 +0000",
+      "minecraft:cave_spider": "2025-06-27 16:12:31 +0000",
+      "minecraft:piglin": "2025-06-30 06:28:30 +0000",
       "minecraft:enderman": "2025-06-26 00:32:08 +0000",
+      "minecraft:silverfish": "2025-07-02 11:40:53 +0000",
       "minecraft:spider": "2025-06-26 00:00:14 +0000",
       "minecraft:zombie": "2025-06-25 23:59:35 +0000",
       "minecraft:creeper": "2025-06-26 00:25:01 +0000",
@@ -2357,7 +2369,8 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:soul_sand_valley": "2025-06-29 00:34:52 +0000",
-      "minecraft:nether_wastes": "2025-06-30 06:22:24 +0000"
+      "minecraft:nether_wastes": "2025-06-30 06:22:24 +0000",
+      "minecraft:basalt_deltas": "2025-07-02 11:12:11 +0000"
     },
     "done": false
   },
@@ -7224,6 +7237,30 @@
   "8bm:invis_itemframes": {
     "criteria": {
       "requirement": "2025-07-01 10:14:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2025-07-02 11:07:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-07-02 11:11:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-07-02 11:12:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2025-07-02 11:40:44 +0000"
     },
     "done": true
   },

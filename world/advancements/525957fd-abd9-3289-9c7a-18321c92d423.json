@@ -492,6 +492,7 @@
       "cooked_porkchop": "2025-06-26 21:38:05 +0000",
       "bread": "2025-06-29 20:09:39 +0000",
       "cooked_chicken": "2025-06-26 21:04:27 +0000",
+      "rotten_flesh": "2025-07-02 11:14:11 +0000",
       "enchanted_golden_apple": "2025-06-27 22:02:58 +0000",
       "cooked_mutton": "2025-06-26 21:22:38 +0000",
       "cooked_beef": "2025-06-26 21:03:40 +0000",
@@ -7166,6 +7167,48 @@
   "minecraft:recipes/decorations/light_gray_stained_glass_pane": {
     "criteria": {
       "has_the_recipe": "2025-07-01 12:40:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cow": "2025-07-02 11:15:20 +0000"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2025-07-02 11:15:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-07-02 11:18:09 +0000"
+    },
+    "done": true
+  },
+  "8bm:advancements/iif.ninja": {
+    "criteria": {
+      "used_shears": "2025-07-02 11:57:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2025-07-02 12:46:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/play_jukebox_in_meadows": {
+    "criteria": {
+      "play_jukebox_in_meadows": "2025-07-02 22:07:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-07-02 22:07:27 +0000"
     },
     "done": true
   },
