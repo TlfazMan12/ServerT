@@ -7212,5 +7212,17 @@
     },
     "done": true
   },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2025-07-03 11:55:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/cure_zombie_villager": {
+    "criteria": {
+      "cured_zombie": "2025-07-03 12:04:45 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3700
 }

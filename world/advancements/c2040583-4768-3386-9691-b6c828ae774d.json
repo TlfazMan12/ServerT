@@ -314,6 +314,7 @@
       "chicken": "2025-06-26 17:46:46 +0000",
       "bread": "2025-06-30 21:04:29 +0000",
       "cooked_chicken": "2025-07-01 14:53:05 +0000",
+      "rotten_flesh": "2025-07-03 12:55:02 +0000",
       "cooked_mutton": "2025-06-26 17:48:21 +0000",
       "cooked_beef": "2025-06-30 20:33:08 +0000",
       "golden_carrot": "2025-07-02 14:02:36 +0000"
@@ -557,7 +558,8 @@
       "minecraft:spider": "2025-06-30 19:05:46 +0000",
       "minecraft:zombie": "2025-06-30 20:23:11 +0000",
       "minecraft:creeper": "2025-06-30 19:10:17 +0000",
-      "minecraft:drowned": "2025-07-02 14:59:04 +0000"
+      "minecraft:drowned": "2025-07-02 14:59:04 +0000",
+      "minecraft:zombie_villager": "2025-07-03 13:12:52 +0000"
     },
     "done": false
   },
@@ -7225,6 +7227,12 @@
   "minecraft:story/enchant_item": {
     "criteria": {
       "enchanted_item": "2025-07-02 12:53:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/play_jukebox_in_meadows": {
+    "criteria": {
+      "play_jukebox_in_meadows": "2025-07-03 11:24:40 +0000"
     },
     "done": true
   },

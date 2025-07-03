@@ -529,6 +529,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "bread": "2025-06-25 23:05:19 +0000",
+      "cooked_chicken": "2025-07-03 12:08:30 +0000",
       "rotten_flesh": "2025-07-02 12:41:53 +0000",
       "glow_berries": "2025-06-27 16:16:44 +0000",
       "sweet_berries": "2025-07-02 12:42:43 +0000",
