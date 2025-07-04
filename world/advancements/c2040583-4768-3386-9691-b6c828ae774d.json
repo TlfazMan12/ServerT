@@ -560,7 +560,8 @@
       "minecraft:zombie": "2025-06-30 20:23:11 +0000",
       "minecraft:creeper": "2025-06-30 19:10:17 +0000",
       "minecraft:drowned": "2025-07-02 14:59:04 +0000",
-      "minecraft:zombie_villager": "2025-07-03 13:12:52 +0000"
+      "minecraft:zombie_villager": "2025-07-03 13:12:52 +0000",
+      "minecraft:ghast": "2025-07-03 21:51:50 +0000"
     },
     "done": false
   },
@@ -7238,6 +7239,12 @@
     },
     "done": true
   },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-07-03 20:04:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/brew_potion": {
     "criteria": {
       "potion": "2025-07-03 20:14:54 +0000"
@@ -7250,9 +7257,9 @@
     },
     "done": true
   },
-  "minecraft:nether/find_fortress": {
+  "minecraft:nether/return_to_sender": {
     "criteria": {
-      "fortress": "2025-07-03 20:04:33 +0000"
+      "killed_ghast": "2025-07-03 21:51:50 +0000"
     },
     "done": true
   },
