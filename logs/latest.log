@@ -4,3 +4,14 @@
 [00:21:33] [Server thread/INFO]: [voicechat] Disconnecting client Kofta_Man
 [00:21:33] [Server thread/INFO]: [Kofta_Man: Kicked Kofta_Man: Kicked by an operator]
 [00:21:33] [Server thread/WARN]: handleDisconnection() called twice
+[00:30:02] [Server thread/INFO]: Stopping the server
+[00:30:02] [Server thread/INFO]: Stopping server
+[00:30:02] [Server thread/INFO]: Saving players
+[00:30:02] [Server thread/INFO]: Saving worlds
+[00:30:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:30:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:30:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:30:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:30:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:30:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:30:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
