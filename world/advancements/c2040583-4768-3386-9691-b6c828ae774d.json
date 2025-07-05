@@ -1118,7 +1118,8 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
-      "minecraft:cow": "2025-06-30 20:31:51 +0000"
+      "minecraft:cow": "2025-06-30 20:31:51 +0000",
+      "minecraft:sheep": "2025-07-05 15:51:03 +0000"
     },
     "done": false
   },
@@ -7274,6 +7275,12 @@
     },
     "done": true
   },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2025-07-04 15:49:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/create_beacon": {
     "criteria": {
       "beacon": "2025-07-04 15:53:53 +0000"
@@ -7283,12 +7290,6 @@
   "minecraft:nether/create_full_beacon": {
     "criteria": {
       "beacon": "2025-07-04 15:54:57 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/summon_wither": {
-    "criteria": {
-      "summoned": "2025-07-04 15:49:18 +0000"
     },
     "done": true
   },

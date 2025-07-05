@@ -1,17 +1,250 @@
-[00:12:21] [Server thread/INFO]: [Not Secure] <Kofta_Man> TT
-[00:21:33] [Server thread/INFO]: Kofta_Man lost connection: Kicked by an operator
-[00:21:33] [Server thread/INFO]: Kofta_Man left the game
-[00:21:33] [Server thread/INFO]: [voicechat] Disconnecting client Kofta_Man
-[00:21:33] [Server thread/INFO]: [Kofta_Man: Kicked Kofta_Man: Kicked by an operator]
-[00:21:33] [Server thread/WARN]: handleDisconnection() called twice
-[00:30:02] [Server thread/INFO]: Stopping the server
-[00:30:02] [Server thread/INFO]: Stopping server
-[00:30:02] [Server thread/INFO]: Saving players
-[00:30:02] [Server thread/INFO]: Saving worlds
-[00:30:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:30:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[00:30:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[00:30:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:30:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:30:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:30:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:19:54] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.16.14
+[15:19:55] [main/WARN]: Warnings were found!
+ - Mod 'TPS Hud' (tpshud) 1.7.0+1.20.3 recommends version 4.0.0 or later of modmenu, which is missing!
+	 - You should install version 4.0.0 or later of modmenu for the optimal experience.
+ - Mod 'TPS Hud' (tpshud) 1.7.0+1.20.3 recommends any version of yet-another-config-lib, which is missing!
+	 - You should install any version of yet-another-config-lib for the optimal experience.
+[15:19:55] [main/INFO]: Loading 96 mods:
+	- c2me 0.2.0+alpha.11.72
+	   |-- c2me-base 0.2.0+alpha.11.72
+	   |-- c2me-client-uncapvd 0.2.0+alpha.11.72
+	   |-- c2me-fixes-chunkio-threading-issues 0.2.0+alpha.11.72
+	   |-- c2me-fixes-general-threading-issues 0.2.0+alpha.11.72
+	   |-- c2me-fixes-worldgen-threading-issues 0.2.0+alpha.11.72
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.2.0+alpha.11.72
+	   |-- c2me-notickvd 0.2.0+alpha.11.72
+	   |-- c2me-opts-allocs 0.2.0+alpha.11.72
+	   |-- c2me-opts-chunk-access 0.2.0+alpha.11.72
+	   |-- c2me-opts-chunkio 0.2.0+alpha.11.72
+	   |-- c2me-opts-math 0.2.0+alpha.11.72
+	   |-- c2me-opts-scheduling 0.2.0+alpha.11.72
+	   |-- c2me-opts-worldgen-general 0.2.0+alpha.11.72
+	   |-- c2me-opts-worldgen-vanilla 0.2.0+alpha.11.72
+	   |-- c2me-rewrites-chunk-serializer 0.2.0+alpha.11.72
+	   |-- c2me-rewrites-chunkio 0.2.0+alpha.11.72
+	   |-- c2me-server-utils 0.2.0+alpha.11.72
+	   |-- c2me-threading-chunkio 0.2.0+alpha.11.72
+	   |-- c2me-threading-lighting 0.2.0+alpha.11.72
+	   |-- c2me-threading-worldgen 0.2.0+alpha.11.72
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- net_objecthunter_exp4j 0.4.8
+	   \-- org_threadly_threadly 7.0
+	- carpet 1.4.128+v231205
+	- chunky 1.3.146
+	- fabric-api 0.97.3+1.20.4
+	   |-- fabric-api-base 0.4.37+78d798af4f
+	   |-- fabric-api-lookup-api-v1 1.6.50+82b1bb3e4f
+	   |-- fabric-biome-api-v1 13.0.17+78d798af4f
+	   |-- fabric-block-api-v1 1.0.17+3e2216cb4f
+	   |-- fabric-block-view-api-v2 1.0.5+78d798af4f
+	   |-- fabric-blockrenderlayer-v1 1.1.47+78d798af4f
+	   |-- fabric-client-tags-api-v1 1.1.8+78d798af4f
+	   |-- fabric-command-api-v1 1.2.42+f71b366f4f
+	   |-- fabric-command-api-v2 2.2.21+78d798af4f
+	   |-- fabric-commands-v0 0.2.59+df3654b34f
+	   |-- fabric-containers-v0 0.1.88+df3654b34f
+	   |-- fabric-content-registries-v0 5.0.16+78d798af4f
+	   |-- fabric-convention-tags-v1 1.5.11+78d798af4f
+	   |-- fabric-crash-report-info-v1 0.2.24+78d798af4f
+	   |-- fabric-data-attachment-api-v1 1.1.5+b90db5744f
+	   |-- fabric-data-generation-api-v1 13.2.6+5c0133444f
+	   |-- fabric-dimensions-v1 2.1.63+6605d1a84f
+	   |-- fabric-entity-events-v1 1.6.2+09fc25014f
+	   |-- fabric-events-interaction-v0 0.7.2+389931eb4f
+	   |-- fabric-events-lifecycle-v0 0.2.76+df3654b34f
+	   |-- fabric-game-rule-api-v1 1.0.47+78d798af4f
+	   |-- fabric-item-api-v1 2.3.1+cadc140c4f
+	   |-- fabric-item-group-api-v1 4.0.27+ee30b13a4f
+	   |-- fabric-key-binding-api-v1 1.0.42+78d798af4f
+	   |-- fabric-keybindings-v0 0.2.40+df3654b34f
+	   |-- fabric-lifecycle-events-v1 2.3.1+a67ffb5d4f
+	   |-- fabric-loot-api-v2 2.1.10+78d798af4f
+	   |-- fabric-message-api-v1 6.0.6+78d798af4f
+	   |-- fabric-mining-level-api-v1 2.1.66+78d798af4f
+	   |-- fabric-model-loading-api-v1 1.0.9+78d798af4f
+	   |-- fabric-models-v0 0.4.8+9386d8a74f
+	   |-- fabric-networking-api-v1 3.1.9+6abb6a4b4f
+	   |-- fabric-object-builder-api-v1 13.1.0+dba1195c4f
+	   |-- fabric-particles-v1 1.1.8+78d798af4f
+	   |-- fabric-recipe-api-v1 2.0.22+78d798af4f
+	   |-- fabric-registry-sync-v0 4.0.21+ee30b13a4f
+	   |-- fabric-renderer-api-v1 3.2.5+78d798af4f
+	   |-- fabric-renderer-indigo 1.5.6+d331d3144f
+	   |-- fabric-renderer-registries-v1 3.2.54+df3654b34f
+	   |-- fabric-rendering-data-attachment-v1 0.3.43+73761d2e4f
+	   |-- fabric-rendering-fluids-v1 3.1.2+e761c6694f
+	   |-- fabric-rendering-v0 1.1.57+df3654b34f
+	   |-- fabric-rendering-v1 3.2.1+6fd945a04f
+	   |-- fabric-resource-conditions-api-v1 2.3.15+78d798af4f
+	   |-- fabric-resource-loader-v0 0.11.21+ee30b13a4f
+	   |-- fabric-screen-api-v1 2.0.18+78d798af4f
+	   |-- fabric-screen-handler-api-v1 1.3.57+78d798af4f
+	   |-- fabric-sound-api-v1 1.0.18+78d798af4f
+	   |-- fabric-transfer-api-v1 4.0.12+90f2d7b14f
+	   \-- fabric-transitive-access-wideners-v1 5.0.15+78d798af4f
+	- fabric-language-kotlin 1.13.3+kotlin.2.1.21
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.1.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.1.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.1.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.1.21
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.27.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.2
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.7.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.7.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.8.1
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.8.1
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.8.1
+	- fabricloader 0.16.14
+	   \-- mixinextras 0.4.1
+	- java 21
+	- lithium 0.12.1
+	- minecraft 1.20.4
+	- servercore 1.5.0+1.20.4
+	   |-- fabric-permissions-api-v0 0.3-SNAPSHOT
+	   |-- org_yaml_snakeyaml 2.2
+	   |-- placeholder-api 2.3.0+1.20.3
+	   |-- space_arim_dazzleconf_dazzleconf-core 1.3.0-M2
+	   \-- space_arim_dazzleconf_dazzleconf-ext-snakeyaml 1.3.0-M2
+	- skinrestorer 2.3.5+1.20.3-fabric
+	   \-- org_mineskin_java-client 3.0.6-SNAPSHOT
+	- spark 1.10.58
+	- tpshud 1.7.0+1.20.3
+	   \-- me_obsilabor_alert 1.0.8
+	- voicechat 1.20.4-2.5.22
+	   \-- fabric-key-binding-api-v1 1.0.39+f4b7e42432
+[15:19:56] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/ServerT/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[15:19:56] [main/INFO]: Compatibility level set to JAVA_16
+[15:19:56] [main/INFO]: Compatibility level set to JAVA_17
+[15:19:56] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[15:19:57] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
+[15:19:57] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[15:19:57] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[15:19:57] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[15:19:57] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[15:19:57] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[15:19:57] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[15:19:57] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[15:19:57] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[15:19:57] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[15:19:57] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[15:19:57] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[15:19:57] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[15:19:57] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[15:19:57] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[15:19:57] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[15:19:57] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
+[15:19:57] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[15:19:57] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[15:19:57] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[15:19:57] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[15:19:57] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[15:19:57] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
+[15:19:57] [main/INFO]: Loaded configuration file for Lithium: 129 options available, 1 override(s) found
+[15:19:58] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[15:19:58] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
+[15:19:59] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[15:20:16] [main/INFO]: [ServerCore] Loaded V1.5.0+1.20.4!
+[15:20:17] [main/INFO]: [voicechat] Compatibility version 18
+[15:20:17] [main/INFO]: [voicechat] Loading plugins
+[15:20:17] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[15:20:17] [main/INFO]: [voicechat] Initializing plugins
+[15:20:17] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[15:20:18] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:20:18] [main/WARN]: Missing metadata in pack file/VanillaTweaks_d815585_UNZIP_ME.zip
+[15:20:24] [main/INFO]: Loaded 7 recipes
+[15:20:24] [main/INFO]: Loaded 1290 advancements
+[15:20:26] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.738 ms
+[15:20:26] [Server thread/INFO]: Starting background profiler...
+[15:20:27] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[15:20:27] [Server thread/INFO]: Loading properties
+[15:20:27] [Server thread/INFO]: Default game type: SURVIVAL
+[15:20:27] [Server thread/INFO]: Generating keypair
+[15:20:27] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:20:27] [Server thread/INFO]: Using epoll channel type
+[15:20:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:20:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:20:27] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:20:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:20:27] [Server thread/INFO]: Preparing level "world"
+[15:20:28] [Server thread/INFO]: Enforcing safe world random access
+[15:20:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:20:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:20:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:20:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:20:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:20:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:20:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:20:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:20:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:20:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:20:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:20:42] [Worker-Main-1/INFO]: Preparing spawn area: 5%
+[15:20:43] [Worker-Main-1/INFO]: Preparing spawn area: 16%
+[15:20:43] [Worker-Main-1/INFO]: Preparing spawn area: 20%
+[15:20:44] [Worker-Main-1/INFO]: Preparing spawn area: 24%
+[15:20:44] [Worker-Main-1/INFO]: Preparing spawn area: 35%
+[15:20:45] [Worker-Main-1/INFO]: Preparing spawn area: 52%
+[15:20:45] [Worker-Main-1/INFO]: Preparing spawn area: 61%
+[15:20:46] [Worker-Main-1/INFO]: Preparing spawn area: 62%
+[15:20:46] [Server thread/INFO]: Time elapsed: 8967 ms
+[15:20:46] [Server thread/INFO]: Done (18.930s)! For help, type "help"
+[15:20:46] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[15:20:47] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[15:23:31] [Thread-13/WARN]: Failed to fetch skin: no profile with uuid e4632f8c-51ef-3d5d-a204-9801251254e0
+[15:23:32] [Server thread/INFO]: Blub_14[/[0:0:0:0:0:0:0:1%0]:55066] logged in with entity id 69 at (225.24446712519793, 63.0, 289.4538182831165)
+[15:23:32] [Server thread/INFO]: [voicechat] Using Fabric Permissions API
+[15:23:32] [Server thread/INFO]: Blub_14 joined the game
+[15:23:33] [Server thread/INFO]: [voicechat] Received secret request of Blub_14 (18)
+[15:23:33] [Server thread/INFO]: [voicechat] Sent secret to Blub_14
+[15:23:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[15:29:34] [Server thread/INFO]: Blub_14 lost connection: Disconnected
+[15:29:34] [Server thread/INFO]: Blub_14 left the game
+[15:29:34] [Server thread/INFO]: [voicechat] Disconnecting client Blub_14
+[15:41:08] [Server thread/INFO]: Kofta_Man[/[0:0:0:0:0:0:0:1%0]:40296] logged in with entity id 1429 at (263.4433290728698, 74.875, 723.5969865508973)
+[15:41:08] [Server thread/INFO]: Kofta_Man joined the game
+[15:46:24] [Thread-15/WARN]: Failed to fetch skin: no profile with uuid e4632f8c-51ef-3d5d-a204-9801251254e0
+[15:46:25] [Server thread/INFO]: Blub_14[/[0:0:0:0:0:0:0:1%0]:54826] logged in with entity id 2649 at (233.67591500332486, 63.0, 282.9490324450091)
+[15:46:25] [Server thread/INFO]: Blub_14 joined the game
+[15:46:26] [Server thread/INFO]: [voicechat] Received secret request of Blub_14 (18)
+[15:46:26] [Server thread/INFO]: [voicechat] Sent secret to Blub_14
+[15:47:09] [Server thread/INFO]: [Not Secure] <Blub_14> m3ak lead?
+[15:47:27] [Server thread/INFO]: [Not Secure] <Kofta_Man> la
+[15:47:36] [Server thread/INFO]: [Not Secure] <Blub_14> la2 m3ak ana shofth
+[15:47:42] [Server thread/INFO]: [Not Secure] <Blub_14> hato b2a :D
+[15:48:13] [Server thread/INFO]: [Not Secure] <Kofta_Man> t3alo 5dh m3rfsh hwa feen law mawgood
+[15:48:26] [Server thread/INFO]: [Not Secure] <Blub_14> 5las toz gbt wheat
+[15:57:17] [Server thread/INFO]: [Not Secure] <Kofta_Man> m3ak glowstone
+[15:57:26] [Server thread/INFO]: [Not Secure] <Blub_14> m3aya villager bybe3o
+[15:57:45] [Server thread/INFO]: [Not Secure] <Kofta_Man> bkam
+[15:57:53] [Server thread/INFO]: [Not Secure] <Blub_14> ya3m ana hadek el emerald
+[15:58:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2870ms or 57 ticks behind
+[15:58:19] [Server thread/INFO]: [Not Secure] <Blub_14> ana btklm 3ayz ya3ny 7ba 2lyleen
+[16:00:37] [Server thread/INFO]: [Not Secure] <Kofta_Man> 3aml cure?
+[16:00:42] [Server thread/INFO]: [Not Secure] <Blub_14> msh lklo
+[16:00:46] [Server thread/INFO]: [Not Secure] <Kofta_Man> dah
+[16:00:47] [Server thread/INFO]: [Not Secure] <Blub_14> bs hwa ah
+[16:01:05] [Server thread/INFO]: [Not Secure] <Kofta_Man> 3ayz kman
+[16:01:54] [Server thread/INFO]: [Not Secure] <Kofta_Man> 5alas
+[16:01:58] [Server thread/INFO]: [Not Secure] <Blub_14> ageb oak bsr3a 2zay?
+[16:02:19] [Server thread/INFO]: [Not Secure] <Kofta_Man> m3rfsh
+[16:02:28] [Server thread/INFO]: [Not Secure] <Kofta_Man> el farmat msh 7lwa
+[16:02:50] [Server thread/INFO]: [Not Secure] <Blub_14> h3ml industrialization ll forest ya3ny :D?
+[16:03:09] [Server thread/INFO]: [Not Secure] <Kofta_Man> AH
+[16:06:50] [Server thread/INFO]: Kofta_Man lost connection: Disconnected
+[16:06:50] [Server thread/INFO]: Kofta_Man left the game
+[16:06:50] [Server thread/INFO]: [voicechat] Disconnecting client Kofta_Man
+[16:09:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=293, y=68, z=180} class_2338{x=293, y=67, z=180}
+[16:10:01] [Server thread/WARN]: Blub_14 moved wrongly!
+[17:45:18] [Server thread/INFO]: Blub_14 lost connection: Timed out
+[17:45:18] [Server thread/INFO]: Blub_14 left the game
+[17:45:18] [Server thread/INFO]: [voicechat] Disconnecting client Blub_14
+[17:45:18] [Server thread/WARN]: handleDisconnection() called twice
+[18:40:16] [Thread-16/WARN]: Failed to fetch skin: no profile with uuid e4632f8c-51ef-3d5d-a204-9801251254e0
+[18:40:18] [Server thread/INFO]: Blub_14[/[0:0:0:0:0:0:0:1%0]:39606] logged in with entity id 35629 at (464.69999998807907, 57.0, 387.69999998807907)
+[18:40:18] [Server thread/INFO]: Blub_14 joined the game
+[18:40:18] [Server thread/INFO]: [voicechat] Received secret request of Blub_14 (18)
+[18:40:18] [Server thread/INFO]: [voicechat] Sent secret to Blub_14
